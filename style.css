@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ranchers", sans-serif;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+
+}
+
+#maincontainter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#textcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 10%;
+    background-color: #222;
+
+}
+
+#textcontainer h2{
+    font: 2rem;
+}
+
+#flipperbtn{
+    max-width: fit-content;
+    padding: 2%;
+    max-height: fit-content;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    background: transparent;
+    border-color:gray ;
+    margin-top: 5%;
+    box-shadow: #fff ;
+}
+
+
+#whitefont{
+    color: #fff;
+}
+
+#bluefont{
+    color: hsl(205, 78%, 60%);
+}
